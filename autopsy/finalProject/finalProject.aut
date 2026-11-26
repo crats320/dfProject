@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>6.0</SchemaVersion>
+  <CreatedDate>2026/11/26 13:30:49 (CST)</CreatedDate>
+  <ModifiedDate>2026/11/26 13:30:59 (CST)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.23.1</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.23.1</SavedByAutopsyVersion>
+  <Case>
+    <Name>finalproject_20261126_133049</Name>
+    <DisplayName>finalProject</DisplayName>
+    <Number>1</Number>
+    <Examiner>Cameron Camp</Examiner>
+    <ExaminerPhone/>
+    <ExaminerEmail/>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <ContentProvider>
+    <Name/>
+  </ContentProvider>
+  <OriginalCase/>
+</AutopsyCase>
