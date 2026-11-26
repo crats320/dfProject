@@ -983,3 +983,559 @@ WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol
 INFO: Mimetype not known for file: f0001888.ods
 2026-11-26 13:48:41.605 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
 INFO: Mimetype not known for file: f0007976.ods
+2026-11-26 14:00:01.547 org.sleuthkit.autopsy.report.ReportBranding getReportTitle
+INFO: Using default report branding for report title
+2026-11-26 14:00:13.357 org.sleuthkit.autopsy.report.ReportBranding getReportFooter
+INFO: Using default report branding for report footer
+2026-11-26 14:00:13.805 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-12.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:13.805 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-12.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:13.806 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-12.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:13.81 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-5.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:13.81 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-5.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:13.81 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-5.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:13.815 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-11.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:13.815 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-11.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:13.815 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-11.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:13.82 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-4.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:13.82 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-4.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:13.82 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-4.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:13.824 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-10.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:13.824 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-10.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:13.824 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-10.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.296 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-9.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.296 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-9.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:14.296 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-9.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.3 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-15.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.3 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-15.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:14.3 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-15.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.315 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-8.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.315 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-8.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:14.315 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-8.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.323 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-14a.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.324 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-14a.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:14.324 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-14a.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.329 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-7.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.329 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-7.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:14.329 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-7.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.333 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-13.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.333 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-13.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:14.333 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-13.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.902 org.sleuthkit.autopsy.coreutils.ImageUtils getImageProperty
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-6.jpg:Zone.Identifier: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.902 org.sleuthkit.autopsy.coreutils.ImageUtils$ReadImageTaskBase failed
+WARNING: ImageIO could not read /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-6.jpg:Zone.Identifier.  It may be unsupported or corrupt: javax.imageio.IIOException: No ImageReader found.
+2026-11-26 14:00:14.902 org.sleuthkit.autopsy.coreutils.ImageUtils getThumbnail
+WARNING: Failed to get thumbnail for /img_Project_08-1_Partition_Recovery.E01/vol_vol3/cyclingartenergy-6.jpg:Zone.Identifier
+java.util.concurrent.ExecutionException: javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+javax.imageio.IIOException: No ImageReader found.
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.sleuthkit.autopsy.coreutils.ImageUtils.getThumbnail(ImageUtils.java:380)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.prepareThumbnail(HTMLReport.java:1582)
+	org.sleuthkit.autopsy.report.modules.html.HTMLReport.addThumbnailRows(HTMLReport.java:928)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.makeThumbnailTable(TableReportGenerator.java:513)
+	org.sleuthkit.autopsy.report.infrastructure.TableReportGenerator.execute(TableReportGenerator.java:164)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateTableReport(ReportGenerator.java:338)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.generateReports(ReportGenerator.java:240)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.lambda$doReportWizard$0(ReportWizardAction.java:112)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:249)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction$ReportWorker.doInBackground(ReportWizardAction.java:239)
+	java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:305)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:342)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-11-26 14:00:14.904 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = EXIF Metadata
+2026-11-26 14:00:14.905 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Metadata
+2026-11-26 14:00:14.906 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Files
+2026-11-26 14:00:14.906 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Images
+2026-11-26 14:00:14.907 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Results
+2026-11-26 14:00:14.907 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = User Content Suspected
+2026-11-26 14:00:14.908 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Web Downloads
+2026-11-26 14:14:38.826 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0012320.fat
+2026-11-26 14:14:54.563 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case finalProject (finalproject_20261126_133049) in C:\Users\camer\Documents\GitHub\dfProject\autopsy\finalProject
+2026-11-26 14:14:56.606 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case finalProject (finalproject_20261126_133049)
+2026-11-26 14:14:56.607 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2026-11-26 14:14:56.607 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case finalProject (finalproject_20261126_133049)

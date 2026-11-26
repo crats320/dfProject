@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="File">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <CaseItemID>3</CaseItemID>
+    <Title>Surveil-northside05.bmp</Title>
+    <Notes>Image of the northside of Surveil. Seems to be a path with an American Flag in the background.</Notes>
+    <CategoryID>0</CategoryID>
+    <FileName>Surveil-northside05.bmp</FileName>
+    <Module>File System Browser</Module>
+    <AddedToCase TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="49" Second="32" />
+    <SHA1>13C8E21235F3ED86A5D954A612B1141E715703DB</SHA1>
+    <SHA256>3B386410F1D54BF9E8233F650F41593AE207756C6B8557F1F2B31F0870F41F1B</SHA256>
+    <MD5>C25A2756C901B2FBF14BE48F9ABB8F57</MD5>
+    <OrginalPath>Project_08-1_Partition_Rec:\RecoveredPart0\Surveil-northside05.bmp</OrginalPath>
+    <Extension>bmp</Extension>
+    <Size>1524158</Size>
+    <CreateTime dwHighDateTime="31001249" dwLowDateTime="-2079272496" />
+    <ModifiedTime dwHighDateTime="30988374" dwLowDateTime="319367448" />
+    <AccessedTime dwHighDateTime="31001249" dwLowDateTime="-2067232117" />
+    <AttrModifiedTime dwHighDateTime="30995406" dwLowDateTime="719313825" />
+    <CreateTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+    <ModifiedTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+    <AccessedTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+    <AttrModifiedTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+</OSFCaseMetaInfo>

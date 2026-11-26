@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCase>
+    <!--OSForensics Case File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <CaseName>finalProject</CaseName>
+    <InvestigatorName>Cameron Camp</InvestigatorName>
+    <Organization>Northwest Missouri State University</Organization>
+    <ContactDetails></ContactDetails>
+    <TimeZone Bias="0" UseLocal="1" />
+    <DynamicTimeZone TimeZoneKeyName="Central Standard Time" UseLocal="1" AccountForDST="1" />
+    <DateTimeFormat DisplayDateFormat="0" DisplayTimezone="0" />
+    <CreationDate TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="29" Second="20" />
+    <AccessDate TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="29" Second="21" />
+    <DefaultDrive>Project_08-1_Partition_Rec</DefaultDrive>
+    <AcquisitionType Value="2" />
+    <DefaultDriveDetails>Project_08-1_Partition_Rec:\</DefaultDriveDetails>
+    <AndroidArtifacts>
+        <AppExtract Value="1" />
+        <CopyWithADB Value="1" />
+        <CopyEmptyFiles Value="0" />
+        <IgnoreOSDirs Value="1" />
+        <CopyToFolder Value="1" />
+        <DestinationFolderPath></DestinationFolderPath>
+        <DestinationFilePath></DestinationFilePath>
+    </AndroidArtifacts>
+    <ReportLocation>C:\Users\camer\Documents\GitHub\dfProject\osForensicsReport</ReportLocation>
+    <CustomLocation>C:\Users\camer\Documents\GitHub\dfProject\osForensics\</CustomLocation>
+    <LogoPaths>
+        <Logo0></Logo0>
+        <Logo1></Logo1>
+        <Logo2></Logo2>
+    </LogoPaths>
+    <Narrative>&lt;html&gt;&lt;DIV&gt;&lt;FONT size=4&gt;&lt;B&gt;CASE NARRATIVE&lt;/B&gt;&lt;/FONT&gt;&lt;/DIV&gt;&lt;/html&gt;</Narrative>
+    <LoggingEnabled Value="1" />
+    <USBWriteBlockEnabled Value="0" />
+    <CaseType Value="4" />
+    <Offense></Offense>
+    <AnalysisReqBy></AnalysisReqBy>
+    <SuspectName></SuspectName>
+    <LocOfSeizure></LocOfSeizure>
+    <LegalAuthority></LegalAuthority>
+    <SummaryOfJob></SummaryOfJob>
+    <SeizedDate TimeZone="UTC" Year="2026" Month="11" Day="27" Hour="2" Minute="28" Second="21" />
+    <EvidenceItems />
+    <CategoryList>
+        <Category ID="0" ListViewOrder="0" Name="Images" Colour="11925489" Shortcut="0" Notes="" />
+        <Category ID="1" ListViewOrder="1" Name="Videos" Colour="15452314" Shortcut="0" Notes="" />
+        <Category ID="2" ListViewOrder="2" Name="Audio Files" Colour="10868479" Shortcut="0" Notes="" />
+        <Category ID="3" ListViewOrder="3" Name="E-mails" Colour="14667764" Shortcut="0" Notes="" />
+        <Category ID="4" ListViewOrder="4" Name="Documents" Colour="10851288" Shortcut="0" Notes="" />
+        <Category ID="5" ListViewOrder="5" Name="Chat Logs" Colour="16757437" Shortcut="0" Notes="" />
+        <Category ID="6" ListViewOrder="6" Name="Peer-to-Peer (P2P)" Colour="11390792" Shortcut="0" Notes="" />
+        <Category ID="7" ListViewOrder="7" Name="Mobile Device" Colour="4748274" Shortcut="0" Notes="" />
+        <Category ID="8" ListViewOrder="8" Name="Program Files" Colour="13605888" Shortcut="0" Notes="" />
+        <Category ID="9" ListViewOrder="9" Name="Recycle Bin" Colour="11711154" Shortcut="0" Notes="" />
+        <Category ID="10" ListViewOrder="10" Name="Web History" Colour="10280404" Shortcut="0" Notes="" />
+        <Category ID="11" ListViewOrder="11" Name="Searches" Colour="5870492" Shortcut="0" Notes="" />
+        <Category ID="12" ListViewOrder="12" Name="Recent Files" Colour="1427700" Shortcut="0" Notes="" />
+        <Category ID="13" ListViewOrder="13" Name="Downloads" Colour="6870176" Shortcut="0" Notes="" />
+        <Category ID="14" ListViewOrder="14" Name="Registry" Colour="9864041" Shortcut="0" Notes="" />
+        <Category ID="15" ListViewOrder="15" Name="Prefetch" Colour="13490602" Shortcut="0" Notes="" />
+    </CategoryList>
+    <BaseMetadataTagsEnabled>
+        <FileType Extension="osfgenericfileext">
+            <TagList>
+                <Tag>File Attr Modified</Tag>
+                <Tag>Case Item ID</Tag>
+                <Tag>File Name</Tag>
+                <Tag>Date Added</Tag>
+                <Tag>File Accessed</Tag>
+                <Tag>Original Path</Tag>
+                <Tag>MD5 Hash of Original Path</Tag>
+                <Tag>File Created</Tag>
+                <Tag>File Modified</Tag>
+                <Tag>$FILE_NAME Created</Tag>
+                <Tag>$FILE_NAME Modified</Tag>
+                <Tag>$FILE_NAME Accessed</Tag>
+                <Tag>$FILE_NAME Attr Modified</Tag>
+                <Tag>SHA-256 Hash</Tag>
+                <Tag>MD5 Hash</Tag>
+                <Tag>SHA-1 Hash</Tag>
+                <Tag>Module</Tag>
+            </TagList>
+        </FileType>
+    </BaseMetadataTagsEnabled>
+    <EXIFMetadataTagsEnabled>
+        <FileType Extension="osfgenericfileext">
+            <TagList>
+                <Tag>[EXIF] Offset Time Original</Tag>
+                <Tag>[File] File Type</Tag>
+                <Tag>[File] File Type Extension</Tag>
+                <Tag>[File] MIME Type</Tag>
+                <Tag>[EXIF] Create Date</Tag>
+                <Tag>[HTML] Modify Date</Tag>
+                <Tag>[EXIF] Modify Date</Tag>
+                <Tag>[PDF] Subject</Tag>
+                <Tag>[EXIF] Offset Time</Tag>
+                <Tag>[EXIF] Offset Time Digitized</Tag>
+                <Tag>[IPTC] City</Tag>
+                <Tag>[ID3] Album</Tag>
+                <Tag>[EXIF] Date/Time Original</Tag>
+                <Tag>[EXE] File Description</Tag>
+                <Tag>[MakerNotes] Lens Type</Tag>
+                <Tag>[EXIF] User Comment</Tag>
+                <Tag>[QuickTime] Duration</Tag>
+                <Tag>[EXIF] Owner Name</Tag>
+                <Tag>[EXIF] Make</Tag>
+                <Tag>[EXIF] Camera Model Name</Tag>
+                <Tag>[EXIF] Lens Make</Tag>
+                <Tag>[RTF] Author</Tag>
+                <Tag>[XMP] Description</Tag>
+                <Tag>[ASF] Creation Date</Tag>
+                <Tag>[EXIF] Lens Model</Tag>
+                <Tag>[Composite] Lens ID</Tag>
+                <Tag>[Composite] GPS Latitude</Tag>
+                <Tag>[Composite] GPS Longitude</Tag>
+                <Tag>[XML] Slides</Tag>
+                <Tag>[Composite] Duration</Tag>
+                <Tag>[XML] Create Date</Tag>
+                <Tag>[QuickTime] Create Date</Tag>
+                <Tag>[QuickTime] Modify Date</Tag>
+                <Tag>[QuickTime] Make</Tag>
+                <Tag>[QuickTime] Model</Tag>
+                <Tag>[XMP] Title</Tag>
+                <Tag>[QuickTime] Handler Vendor ID</Tag>
+                <Tag>[QuickTime] User Data mod</Tag>
+                <Tag>[ASF] Duration</Tag>
+                <Tag>[PDF] Author</Tag>
+                <Tag>[EXE] Time Stamp</Tag>
+                <Tag>[EXE] Original File Name</Tag>
+                <Tag>[XML] Pages</Tag>
+                <Tag>[XMP] Create Date</Tag>
+                <Tag>[EXE] Internal Name</Tag>
+                <Tag>[IPTC] Country-Primary Location Name</Tag>
+                <Tag>[EXE] File Version</Tag>
+                <Tag>[XMP] Creator</Tag>
+                <Tag>[EXE] Company Name</Tag>
+                <Tag>[EXE] Product Name</Tag>
+                <Tag>[RTF] Pages</Tag>
+                <Tag>[EXE] Product Version</Tag>
+                <Tag>[EXE] Legal Copyright</Tag>
+                <Tag>[XML] Modify Date</Tag>
+                <Tag>[PDF] Page Count</Tag>
+                <Tag>[ID3] Title</Tag>
+                <Tag>[XMP] Subject</Tag>
+                <Tag>[RTF] Title</Tag>
+                <Tag>[XML] Last Modified By</Tag>
+                <Tag>[ISO] Volume Name</Tag>
+                <Tag>[XMP] Modify Date</Tag>
+                <Tag>[XMP] Country</Tag>
+                <Tag>[XML] Doc Security</Tag>
+                <Tag>[RTF] Last Modified By</Tag>
+                <Tag>[RTF] Create Date</Tag>
+                <Tag>[RTF] Modify Date</Tag>
+                <Tag>[ID3] Artist</Tag>
+                <Tag>[ID3] Year</Tag>
+                <Tag>[ID3] Publisher</Tag>
+                <Tag>[ZIP] Zip File Name</Tag>
+                <Tag>[ZIP] Zip Modify Date</Tag>
+                <Tag>[ISO] Volume Create Date</Tag>
+                <Tag>[ISO] Volume Modify Date</Tag>
+                <Tag>[ISO] Publisher</Tag>
+                <Tag>[HTML] Title</Tag>
+                <Tag>[HTML] Author</Tag>
+                <Tag>[HTML] Last Author</Tag>
+                <Tag>[HTML] Pages</Tag>
+                <Tag>[HTML] Create Date</Tag>
+                <Tag>[HTML] Company</Tag>
+                <Tag>[HTML] Description</Tag>
+            </TagList>
+        </FileType>
+        <FileType Extension="mov">
+            <TagList>
+                <Tag>[EXIF] Offset Time Original</Tag>
+                <Tag>[File] File Type</Tag>
+                <Tag>[File] File Type Extension</Tag>
+                <Tag>[File] MIME Type</Tag>
+                <Tag>[EXIF] Create Date</Tag>
+                <Tag>[EXIF] Modify Date</Tag>
+                <Tag>[EXIF] Offset Time</Tag>
+                <Tag>[EXIF] Offset Time Digitized</Tag>
+                <Tag>[MakerNotes] Lens Type</Tag>
+                <Tag>[EXIF] Date/Time Original</Tag>
+                <Tag>[QuickTime] Duration</Tag>
+                <Tag>[EXIF] Owner Name</Tag>
+                <Tag>[EXIF] Make</Tag>
+                <Tag>[EXIF] Camera Model Name</Tag>
+                <Tag>[EXIF] Lens Make</Tag>
+                <Tag>[XMP] Description</Tag>
+                <Tag>[EXIF] Lens Model</Tag>
+                <Tag>[Composite] Lens ID</Tag>
+                <Tag>[Composite] GPS Latitude</Tag>
+                <Tag>[Composite] GPS Longitude</Tag>
+                <Tag>[QuickTime] Handler Vendor ID</Tag>
+                <Tag>[XMP] Title</Tag>
+                <Tag>[XMP] Subject</Tag>
+                <Tag>[XMP] Creator</Tag>
+                <Tag>[XMP] Create Date</Tag>
+                <Tag>[XMP] Modify Date</Tag>
+                <Tag>[XMP] Country</Tag>
+                <Tag>[QuickTime] Create Date</Tag>
+                <Tag>[QuickTime] Modify Date</Tag>
+                <Tag>[QuickTime] Make</Tag>
+                <Tag>[QuickTime] Model</Tag>
+                <Tag>[QuickTime] User Data mod</Tag>
+            </TagList>
+        </FileType>
+        <FileType Extension="jpg">
+            <TagList>
+                <Tag>[EXIF] Offset Time Original</Tag>
+                <Tag>[File] File Type</Tag>
+                <Tag>[File] File Type Extension</Tag>
+                <Tag>[File] MIME Type</Tag>
+                <Tag>[EXIF] Create Date</Tag>
+                <Tag>[EXIF] Modify Date</Tag>
+                <Tag>[EXIF] Offset Time</Tag>
+                <Tag>[EXIF] Offset Time Digitized</Tag>
+                <Tag>[IPTC] City</Tag>
+                <Tag>[EXIF] User Comment</Tag>
+                <Tag>[EXIF] Date/Time Original</Tag>
+                <Tag>[EXIF] Owner Name</Tag>
+                <Tag>[EXIF] Make</Tag>
+                <Tag>[EXIF] Camera Model Name</Tag>
+                <Tag>[EXIF] Lens Make</Tag>
+                <Tag>[XMP] Description</Tag>
+                <Tag>[EXIF] Lens Model</Tag>
+                <Tag>[Composite] Lens ID</Tag>
+                <Tag>[Composite] GPS Latitude</Tag>
+                <Tag>[Composite] GPS Longitude</Tag>
+                <Tag>[XMP] Title</Tag>
+                <Tag>[XMP] Subject</Tag>
+                <Tag>[XMP] Creator</Tag>
+                <Tag>[XMP] Create Date</Tag>
+                <Tag>[XMP] Modify Date</Tag>
+                <Tag>[XMP] Country</Tag>
+                <Tag>[IPTC] Country-Primary Location Name</Tag>
+            </TagList>
+        </FileType>
+    </EXIFMetadataTagsEnabled>
+</OSFCase>

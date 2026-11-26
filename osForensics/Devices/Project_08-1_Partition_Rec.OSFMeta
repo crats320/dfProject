@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="Device">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <CaseItemID>0</CaseItemID>
+    <Title>Project_08-1_Partition_Rec</Title>
+    <Notes></Notes>
+    <Module>Case Manager</Module>
+    <AddedToCase TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="31" Second="4" />
+    <DevicePath>C:\Users\camer\Documents\GitHub\dfProject\dataFiles\Project_08-1_Partition_Recovery.E01</DevicePath>
+    <DeviceType>1</DeviceType>
+    <PartitionNo>-1</PartitionNo>
+    <StartSec>-1</StartSec>
+    <NumSecs>-1</NumSecs>
+    <ShadowId></ShadowId>
+    <ShadowTime></ShadowTime>
+    <BDEPassword></BDEPassword>
+    <BDEKey></BDEKey>
+    <BDEKeyFile></BDEKeyFile>
+    <CacheMode>0</CacheMode>
+</OSFCaseMetaInfo>

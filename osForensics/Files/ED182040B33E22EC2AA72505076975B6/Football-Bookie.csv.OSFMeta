@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="File">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <CaseItemID>1</CaseItemID>
+    <Title>Football-Bookie.csv</Title>
+    <Notes>Tracking people who bet on football and their information.</Notes>
+    <CategoryID>4</CategoryID>
+    <FileName>Football-Bookie.csv</FileName>
+    <Module>File System Browser</Module>
+    <AddedToCase TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="33" Second="50" />
+    <SHA1>057A8825A9F79955B3C0B49EA2700648652F89E3</SHA1>
+    <SHA256>193FB48F28726D21B7472BE85DD24362B176853F4293071E46755708C48C0FA8</SHA256>
+    <MD5>8B2916CFE7FCE9FE3A057D6BDEC4C08F</MD5>
+    <OrginalPath>Project_08-1_Partition_Rec:\RecoveredPart0\Football-Bookie.csv</OrginalPath>
+    <Extension>csv</Extension>
+    <Size>59229</Size>
+    <CreateTime dwHighDateTime="31001248" dwLowDateTime="702118596" />
+    <ModifiedTime dwHighDateTime="30960961" dwLowDateTime="1370374038" />
+    <AccessedTime dwHighDateTime="31001248" dwLowDateTime="702131943" />
+    <AttrModifiedTime dwHighDateTime="30960961" dwLowDateTime="1370374038" />
+    <CreateTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+    <ModifiedTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+    <AccessedTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+    <AttrModifiedTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+</OSFCaseMetaInfo>

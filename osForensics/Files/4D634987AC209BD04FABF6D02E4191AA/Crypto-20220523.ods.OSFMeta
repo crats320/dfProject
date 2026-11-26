@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="File">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <CaseItemID>4</CaseItemID>
+    <Title>Crypto-20220523.ods</Title>
+    <Notes>Market information about Cryptocurrency.</Notes>
+    <CategoryID>4</CategoryID>
+    <FileName>Crypto-20220523.ods</FileName>
+    <Module>File System Browser</Module>
+    <AddedToCase TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="50" Second="47" />
+    <SHA1>907109539EFC8E0E6708091D58BDF03765822015</SHA1>
+    <SHA256>7A1F7F1CC102DAB9E37182FBCAE8BD72FB0FE9FB25BB4A5C4AFD19B11BD787D4</SHA256>
+    <MD5>50A95F1E3BF0C68D2E23B097F2931E66</MD5>
+    <OrginalPath>Project_08-1_Partition_Rec:\Part1\Crypto-20220523.ods</OrginalPath>
+    <Extension>ods</Extension>
+    <Size>30188</Size>
+    <CreateTime dwHighDateTime="31001368" dwLowDateTime="-126228224" />
+    <ModifiedTime dwHighDateTime="30961338" dwLowDateTime="-745369344" />
+    <AccessedTime dwHighDateTime="31001290" dwLowDateTime="1316188160" />
+    <AttrModifiedTime dwHighDateTime="0" dwLowDateTime="0" />
+    <CreateTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+    <ModifiedTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+    <AccessedTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+    <AttrModifiedTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+</OSFCaseMetaInfo>

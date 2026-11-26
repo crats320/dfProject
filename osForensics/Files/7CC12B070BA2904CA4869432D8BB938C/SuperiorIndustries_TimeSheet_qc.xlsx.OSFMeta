@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="File">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <CaseItemID>12</CaseItemID>
+    <Title>SuperiorIndustries_TimeSheet_qc.xlsx</Title>
+    <Notes>Time sheet templates for employees.</Notes>
+    <CategoryID>4</CategoryID>
+    <FileName>SuperiorIndustries_TimeSheet_qc.xlsx</FileName>
+    <Module>File System Browser</Module>
+    <AddedToCase TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="54" Second="12" />
+    <SHA1>90FD475D4D41E4C24D2C2D894DB04003DCDD1F36</SHA1>
+    <SHA256>E8B5C72A8361A93DF88299875C7FCE3905683382786035328A61B89B9B970441</SHA256>
+    <MD5>22F68E08CA2965E5913612B94D665CFF</MD5>
+    <OrginalPath>Project_08-1_Partition_Rec:\Part0\SuperiorIndustries_TimeSheet_qc.xlsx</OrginalPath>
+    <Extension>xlsx</Extension>
+    <Size>15292</Size>
+    <CreateTime dwHighDateTime="31001385" dwLowDateTime="-448557658" />
+    <ModifiedTime dwHighDateTime="30960193" dwLowDateTime="-377873130" />
+    <AccessedTime dwHighDateTime="31001385" dwLowDateTime="-448557658" />
+    <AttrModifiedTime dwHighDateTime="30961356" dwLowDateTime="-819047465" />
+    <CreateTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+    <ModifiedTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+    <AccessedTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+    <AttrModifiedTime_FILENAME dwHighDateTime="30988364" dwLowDateTime="1725357541" />
+</OSFCaseMetaInfo>

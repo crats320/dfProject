@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="File">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <CaseItemID>8</CaseItemID>
+    <Title>Horse-Bookie.ods</Title>
+    <Notes>Tracking horse bets and who bet as well as their bitcoin wallets (if applicable).</Notes>
+    <CategoryID>4</CategoryID>
+    <FileName>Horse-Bookie.ods</FileName>
+    <Module>File System Browser</Module>
+    <AddedToCase TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="52" Second="43" />
+    <SHA1>27F3DA14C06D0365122870D97DF0C76B56961C15</SHA1>
+    <SHA256>459FE28301491B3794FBE7D615E914330AEF0B38716538D05E54362EF378B32C</SHA256>
+    <MD5>4D0EE4E9BE2D76D8016E9262AB3F0ABF</MD5>
+    <OrginalPath>Project_08-1_Partition_Rec:\Part1\Horse-Bookie.ods</OrginalPath>
+    <Extension>ods</Extension>
+    <Size>90177</Size>
+    <CreateTime dwHighDateTime="31001368" dwLowDateTime="-126228224" />
+    <ModifiedTime dwHighDateTime="30961341" dwLowDateTime="1884696064" />
+    <AccessedTime dwHighDateTime="31001290" dwLowDateTime="1316188160" />
+    <AttrModifiedTime dwHighDateTime="0" dwLowDateTime="0" />
+    <CreateTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+    <ModifiedTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+    <AccessedTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+    <AttrModifiedTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+</OSFCaseMetaInfo>

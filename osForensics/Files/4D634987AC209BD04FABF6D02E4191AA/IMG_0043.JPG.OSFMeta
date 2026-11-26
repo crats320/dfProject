@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="File">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <CaseItemID>7</CaseItemID>
+    <Title>IMG_0043.JPG</Title>
+    <Notes>Location image with date stamped on the bottom right.</Notes>
+    <CategoryID>0</CategoryID>
+    <FileName>IMG_0043.JPG</FileName>
+    <Module>File System Browser</Module>
+    <AddedToCase TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="51" Second="53" />
+    <SHA1>B990558BECF738E1AB47EF04E749720FBA7B3CF8</SHA1>
+    <SHA256>BB86DAEFEDE3A26DDCC8A141CE2D55680360D2E0B5E35BD42B23AA2341886F98</SHA256>
+    <MD5>15F574762F3E07FFAFF771A24E2DD876</MD5>
+    <OrginalPath>Project_08-1_Partition_Rec:\Part1\IMG_0043.JPG</OrginalPath>
+    <Extension>JPG</Extension>
+    <Size>1635659</Size>
+    <CreateTime dwHighDateTime="31001369" dwLowDateTime="1673771776" />
+    <ModifiedTime dwHighDateTime="30999148" dwLowDateTime="1576136192" />
+    <AccessedTime dwHighDateTime="31001290" dwLowDateTime="1316188160" />
+    <AttrModifiedTime dwHighDateTime="0" dwLowDateTime="0" />
+    <CreateTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+    <ModifiedTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+    <AccessedTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+    <AttrModifiedTime_FILENAME dwHighDateTime="0" dwLowDateTime="0" />
+</OSFCaseMetaInfo>

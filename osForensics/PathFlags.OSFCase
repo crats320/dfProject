@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFPathFlags>
+    <!--OSforensics Path Flags File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <Path PathHash="8952713541357694169">
+        <Viewed>
+            <Date>134401998119460000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="3471393019017281162">
+        <Viewed>
+            <Date>134401987034530000</Date>
+            <CategoryID>4</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="13382250060036599174" Path="Project_08-1_Partition_Rec:\RecoveredPart0\Horse-Bookie.dbf">
+        <Viewed>
+            <Date>134401987342730000</Date>
+            <Notes>Tag added via &quot;File System Browser&quot; Module.</Notes>
+            <CategoryID>4</CategoryID>
+            <Module>File System Browser</Module>
+        </Viewed>
+        <Tagged>
+            <Date>134401987342730000</Date>
+            <Notes>Tag added via &quot;File System Browser&quot; Module.</Notes>
+            <CategoryID>4</CategoryID>
+            <Module>File System Browser</Module>
+        </Tagged>
+    </Path>
+    <Path PathHash="10559029129316996741">
+        <Viewed>
+            <Date>134401987565070000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="11827299895159648764">
+        <Viewed>
+            <Date>134401987526120000</Date>
+            <CategoryID>0</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="14223964805181128359">
+        <Viewed>
+            <Date>134401998161660000</Date>
+            <CategoryID>4</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="1971097903389105696">
+        <Viewed>
+            <Date>134401998499800000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="2293671476208937364">
+        <Viewed>
+            <Date>134401998585510000</Date>
+            <CategoryID>4</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="8710921754432629573">
+        <Viewed>
+            <Date>134401998756990000</Date>
+            <CategoryID>0</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="7106681181128551404">
+        <Viewed>
+            <Date>134401998813110000</Date>
+            <CategoryID>0</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="6283569933667941149">
+        <Viewed>
+            <Date>134401999855900000</Date>
+            <CategoryID>4</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="16309097874706736045">
+        <Viewed>
+            <Date>134401999921940000</Date>
+            <CategoryID>4</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="1602596587658022924">
+        <Viewed>
+            <Date>134401999981840000</Date>
+            <CategoryID>4</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="13267515914763266776">
+        <Viewed>
+            <Date>134402000060570000</Date>
+            <CategoryID>4</CategoryID>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="12323348723269200674">
+        <Viewed>
+            <Date>134402000101940000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="14874882102470840731">
+        <Viewed>
+            <Date>134402000150140000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+    <Path PathHash="15801092601184701346">
+        <Viewed>
+            <Date>134402001369190000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+</OSFPathFlags>

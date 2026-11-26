@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="Basic">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <CaseItemID>13</CaseItemID>
+    <Title>Case Report</Title>
+    <Notes></Notes>
+    <CategoryID>-1</CategoryID>
+    <FileName>report.html</FileName>
+    <Module>Case Manager</Module>
+    <AddedToCase TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="55" Second="36" />
+    <SHA1>5A4521B070F8B0F184F12A86262647B209537A38</SHA1>
+    <SHA256>7A50509524E69E4180D24E5F03058294C77C728B0B0C2F17770A8B36CBBDF1B7</SHA256>
+    <MD5>DF88C8D094ACAD24402F0AB633F6712C</MD5>
+</OSFCaseMetaInfo>
