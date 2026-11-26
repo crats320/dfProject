@@ -6,14 +6,14 @@ The evidence found in `Project_08-1_Partition_Recovery.E01` varies greatly. Some
 
 1. Images of random locations along the coastline.
 2. Images of a supposed horse derby track.
-3. Employee time sheet templates.
-4. Cryptocurrency tracking.
-5. Bitcoin tracking.
-6. Horse betting tracking.
-
-Some items are unable to be listed as they are corrupted and unable to be fully fixed
-
-
+3. Images of cycles back in 1889.
+     - These images were found to be corrupted, but were traced back to the [original source](https://publicdomainreview.org/collection/cycling-art/), which is a book about cycling created in 1889 by Robert P. Scott titled *Cycling Art, Energy, and Locomotion: A Series of Remarks on the Development of Bicycles, Tricycles, and Manmotor Carriages*.
+5. Employee time sheet templates.
+6. Cryptocurrency tracking.
+7. Bitcoin tracking.
+8. Horse betting tracking.
+9. Downloads of different text files.
+     - These text files were found to be corrupted, but were traced back to the [original source](https://www.gutenberg.org). Many different files were downloaded from this site.
 
 Describe your evidence (and cite your source).
 Did things work as expected? 
