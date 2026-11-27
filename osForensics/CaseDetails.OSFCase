@@ -10,7 +10,7 @@
     <DynamicTimeZone TimeZoneKeyName="Central Standard Time" UseLocal="1" AccountForDST="1" />
     <DateTimeFormat DisplayDateFormat="0" DisplayTimezone="0" />
     <CreationDate TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="29" Second="20" />
-    <AccessDate TimeZone="UTC" Year="2026" Month="11" Day="26" Hour="20" Minute="29" Second="21" />
+    <AccessDate TimeZone="UTC" Year="2026" Month="11" Day="27" Hour="18" Minute="49" Second="22" />
     <DefaultDrive>Project_08-1_Partition_Rec</DefaultDrive>
     <AcquisitionType Value="2" />
     <DefaultDriveDetails>Project_08-1_Partition_Rec:\</DefaultDriveDetails>
@@ -63,13 +63,13 @@
     <BaseMetadataTagsEnabled>
         <FileType Extension="osfgenericfileext">
             <TagList>
-                <Tag>File Attr Modified</Tag>
-                <Tag>Case Item ID</Tag>
-                <Tag>File Name</Tag>
-                <Tag>Date Added</Tag>
                 <Tag>File Accessed</Tag>
-                <Tag>Original Path</Tag>
+                <Tag>Date Added</Tag>
+                <Tag>File Name</Tag>
+                <Tag>Case Item ID</Tag>
+                <Tag>File Attr Modified</Tag>
                 <Tag>MD5 Hash of Original Path</Tag>
+                <Tag>Original Path</Tag>
                 <Tag>File Created</Tag>
                 <Tag>File Modified</Tag>
                 <Tag>$FILE_NAME Created</Tag>
@@ -93,60 +93,60 @@
                 <Tag>[EXIF] Create Date</Tag>
                 <Tag>[HTML] Modify Date</Tag>
                 <Tag>[EXIF] Modify Date</Tag>
-                <Tag>[PDF] Subject</Tag>
                 <Tag>[EXIF] Offset Time</Tag>
+                <Tag>[PDF] Subject</Tag>
                 <Tag>[EXIF] Offset Time Digitized</Tag>
-                <Tag>[IPTC] City</Tag>
-                <Tag>[ID3] Album</Tag>
-                <Tag>[EXIF] Date/Time Original</Tag>
-                <Tag>[EXE] File Description</Tag>
-                <Tag>[MakerNotes] Lens Type</Tag>
                 <Tag>[EXIF] User Comment</Tag>
-                <Tag>[QuickTime] Duration</Tag>
+                <Tag>[MakerNotes] Lens Type</Tag>
+                <Tag>[EXE] File Description</Tag>
+                <Tag>[EXIF] Date/Time Original</Tag>
+                <Tag>[ID3] Album</Tag>
+                <Tag>[IPTC] City</Tag>
                 <Tag>[EXIF] Owner Name</Tag>
+                <Tag>[QuickTime] Duration</Tag>
                 <Tag>[EXIF] Make</Tag>
                 <Tag>[EXIF] Camera Model Name</Tag>
                 <Tag>[EXIF] Lens Make</Tag>
-                <Tag>[RTF] Author</Tag>
-                <Tag>[XMP] Description</Tag>
-                <Tag>[ASF] Creation Date</Tag>
                 <Tag>[EXIF] Lens Model</Tag>
+                <Tag>[ASF] Creation Date</Tag>
+                <Tag>[XMP] Description</Tag>
+                <Tag>[RTF] Author</Tag>
                 <Tag>[Composite] Lens ID</Tag>
                 <Tag>[Composite] GPS Latitude</Tag>
-                <Tag>[Composite] GPS Longitude</Tag>
                 <Tag>[XML] Slides</Tag>
+                <Tag>[Composite] GPS Longitude</Tag>
                 <Tag>[Composite] Duration</Tag>
-                <Tag>[XML] Create Date</Tag>
                 <Tag>[QuickTime] Create Date</Tag>
+                <Tag>[XML] Create Date</Tag>
                 <Tag>[QuickTime] Modify Date</Tag>
                 <Tag>[QuickTime] Make</Tag>
                 <Tag>[QuickTime] Model</Tag>
-                <Tag>[XMP] Title</Tag>
                 <Tag>[QuickTime] Handler Vendor ID</Tag>
+                <Tag>[XMP] Title</Tag>
                 <Tag>[QuickTime] User Data mod</Tag>
                 <Tag>[ASF] Duration</Tag>
-                <Tag>[PDF] Author</Tag>
                 <Tag>[EXE] Time Stamp</Tag>
+                <Tag>[PDF] Author</Tag>
                 <Tag>[EXE] Original File Name</Tag>
-                <Tag>[XML] Pages</Tag>
-                <Tag>[XMP] Create Date</Tag>
                 <Tag>[EXE] Internal Name</Tag>
-                <Tag>[IPTC] Country-Primary Location Name</Tag>
+                <Tag>[XMP] Create Date</Tag>
+                <Tag>[XML] Pages</Tag>
                 <Tag>[EXE] File Version</Tag>
-                <Tag>[XMP] Creator</Tag>
+                <Tag>[IPTC] Country-Primary Location Name</Tag>
                 <Tag>[EXE] Company Name</Tag>
+                <Tag>[XMP] Creator</Tag>
                 <Tag>[EXE] Product Name</Tag>
-                <Tag>[RTF] Pages</Tag>
                 <Tag>[EXE] Product Version</Tag>
-                <Tag>[EXE] Legal Copyright</Tag>
+                <Tag>[RTF] Pages</Tag>
                 <Tag>[XML] Modify Date</Tag>
+                <Tag>[EXE] Legal Copyright</Tag>
                 <Tag>[PDF] Page Count</Tag>
-                <Tag>[ID3] Title</Tag>
                 <Tag>[XMP] Subject</Tag>
-                <Tag>[RTF] Title</Tag>
-                <Tag>[XML] Last Modified By</Tag>
-                <Tag>[ISO] Volume Name</Tag>
+                <Tag>[ID3] Title</Tag>
                 <Tag>[XMP] Modify Date</Tag>
+                <Tag>[ISO] Volume Name</Tag>
+                <Tag>[XML] Last Modified By</Tag>
+                <Tag>[RTF] Title</Tag>
                 <Tag>[XMP] Country</Tag>
                 <Tag>[XML] Doc Security</Tag>
                 <Tag>[RTF] Last Modified By</Tag>
@@ -171,14 +171,14 @@
         </FileType>
         <FileType Extension="mov">
             <TagList>
-                <Tag>[EXIF] Offset Time Original</Tag>
                 <Tag>[File] File Type</Tag>
+                <Tag>[EXIF] Offset Time Original</Tag>
                 <Tag>[File] File Type Extension</Tag>
                 <Tag>[File] MIME Type</Tag>
                 <Tag>[EXIF] Create Date</Tag>
                 <Tag>[EXIF] Modify Date</Tag>
-                <Tag>[EXIF] Offset Time</Tag>
                 <Tag>[EXIF] Offset Time Digitized</Tag>
+                <Tag>[EXIF] Offset Time</Tag>
                 <Tag>[MakerNotes] Lens Type</Tag>
                 <Tag>[EXIF] Date/Time Original</Tag>
                 <Tag>[QuickTime] Duration</Tag>
@@ -207,14 +207,14 @@
         </FileType>
         <FileType Extension="jpg">
             <TagList>
-                <Tag>[EXIF] Offset Time Original</Tag>
                 <Tag>[File] File Type</Tag>
+                <Tag>[EXIF] Offset Time Original</Tag>
                 <Tag>[File] File Type Extension</Tag>
                 <Tag>[File] MIME Type</Tag>
                 <Tag>[EXIF] Create Date</Tag>
                 <Tag>[EXIF] Modify Date</Tag>
-                <Tag>[EXIF] Offset Time</Tag>
                 <Tag>[EXIF] Offset Time Digitized</Tag>
+                <Tag>[EXIF] Offset Time</Tag>
                 <Tag>[IPTC] City</Tag>
                 <Tag>[EXIF] User Comment</Tag>
                 <Tag>[EXIF] Date/Time Original</Tag>
