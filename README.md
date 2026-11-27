@@ -82,4 +82,9 @@ Once you have added all of your files to your case, you can now generate your re
 
 ___
 
-Now that you've finished going through everything, you can push your commits to GitHub (if you haven't already). 
+Now that you've finished going through everything, you can push your commits to GitHub (if you haven't already). Once your commits have been published, it is time to host the reports on GitHub Pages so that they can be viewed. To start, go to settings.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/gOne.PNG?raw=true)
+
+Now that you're in your repository's settings, navigate to the Pages tab. Once here, you'll set your branch to main and folder to root. This sets the entire repository to be viewed so that you can find the proper URLs for each report and ensure they are still navigatable.
+![](https://github.com/crats320/dfProject/blob/main/processImages/gTwo.PNG?raw=true)
+![](https://github.com/crats320/dfProject/blob/main/processImages/gThree.PNG?raw=true)
