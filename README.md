@@ -58,9 +58,24 @@ Go through the steps of the report as needed, you should not need to change anyt
 
 ___
 
-After generating a report on OSForensics, you can close it and open Autopsy. With Autopsy open, you can create a new case. Name it and find a good location for your project as needed, as well as number it.
+After generating a report on OSForensics, you can close it and open Autopsy. With Autopsy open, you can create a new case. Name it and find a good location for your project as needed, as well as number it.<br>
 ![](https://github.com/crats320/dfProject/blob/main/processImages/aOne.PNG?raw=true)
 ![](https://github.com/crats320/dfProject/blob/main/processImages/aTwo.PNG?raw=true)
 
-Now that your case has been created, you can now mount the partition image as well. Go through the default process and ensure you have the VM Disk/Image option selected.
+Now that your case has been created, you can now mount the partition image as well. Go through the default process and ensure you have the VM Disk/Image option selected.<br>
 ![](https://github.com/crats320/dfProject/blob/main/processImages/aThree.PNG?raw=true)
+
+Once your image has been mounted, wait for it to ingest. After it has been ingested, you may begin to navigate through the tree and look through the files of the partition. These files are listed on the right.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/aFour.PNG?raw=true)
+
+The files listed here are a preview of items you may find and add to your case. Due to screenshot limitations, I cannot include the image of adding the file to the case.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/aFive.PNG?raw=true)
+
+Some files may be corrupted, like the one here. In cases like these, you can look at the context of the image as well as its zone identifier to learn more about the source.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/aSix.PNG?raw=true)
+![](https://github.com/crats320/dfProject/blob/main/processImages/aSeven.PNG?raw=true)
+![](https://github.com/crats320/dfProject/blob/main/processImages/aEight.PNG?raw=true)
+
+Once you have added all of your files to your case, you can now generate your report. You will follow the same process as before, use the default generation settings and let the report generate. The report will be saved locally.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/aNine.PNG?raw=true)
+![](https://github.com/crats320/dfProject/blob/main/processImages/aTen.PNG?raw=true)
