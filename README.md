@@ -15,7 +15,21 @@ The evidence found in `Project_08-1_Partition_Recovery.E01` varies greatly. Some
 9. Downloads of different text files.
      - These text files were found to be corrupted, but were traced back to the [original source](https://www.gutenberg.org). Many different files were downloaded from this site.
 
-Describe your evidence (and cite your source).
+# Reports
+To see the reports, please click on the following hyperlinks.
+
+1. [Autopsy Report.](https://crats320.github.io/dfProject/autopsyReport/report.html)
+      - This report contains every tagged file of interest. Files can be downloaded and previewed.
+2. [OSForensics Report.](https://crats320.github.io/dfProject/osForensicsReport/Case%20Report/Full%20Length%20Report/report.html)
+      - This report contains a small amount of tagged files of interest. Files can be downloaded and previewed.
+
+
+
+Reports are hosted using GitHub pages and all files are safe to download. Some may be corrupted.
+
+# A Reflection
+
+
 Did things work as expected? 
 What challenges did you encounter? 
 Do you recommend this tool / approach? 
