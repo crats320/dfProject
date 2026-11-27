@@ -2,16 +2,16 @@
 <OSFPathFlags>
     <!--OSforensics Path Flags File-->
     <OSFVersionInfo MajorVersion="11" MinorVersion="1" Build="1017" />
+    <Path PathHash="8952713541357694169">
+        <Viewed>
+            <Date>134401998119460000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
     <Path PathHash="3471393019017281162">
         <Viewed>
             <Date>134401987034530000</Date>
             <CategoryID>4</CategoryID>
-            <Module>Case Manager</Module>
-        </Viewed>
-    </Path>
-    <Path PathHash="8952713541357694169">
-        <Viewed>
-            <Date>134401998119460000</Date>
             <Module>Case Manager</Module>
         </Viewed>
     </Path>
@@ -29,16 +29,16 @@
             <Module>File System Browser</Module>
         </Tagged>
     </Path>
+    <Path PathHash="10559029129316996741">
+        <Viewed>
+            <Date>134401987565070000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
     <Path PathHash="11827299895159648764">
         <Viewed>
             <Date>134401987526120000</Date>
             <CategoryID>0</CategoryID>
-            <Module>Case Manager</Module>
-        </Viewed>
-    </Path>
-    <Path PathHash="10559029129316996741">
-        <Viewed>
-            <Date>134401987565070000</Date>
             <Module>Case Manager</Module>
         </Viewed>
     </Path>
