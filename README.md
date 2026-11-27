@@ -79,3 +79,7 @@ Some files may be corrupted, like the one here. In cases like these, you can loo
 Once you have added all of your files to your case, you can now generate your report. You will follow the same process as before, use the default generation settings and let the report generate. The report will be saved locally.<br>
 ![](https://github.com/crats320/dfProject/blob/main/processImages/aNine.PNG?raw=true)
 ![](https://github.com/crats320/dfProject/blob/main/processImages/aTen.PNG?raw=true)
+
+___
+
+Now that you've finished going through everything, you can push your commits to GitHub (if you haven't already). 
