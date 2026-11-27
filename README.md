@@ -33,3 +33,7 @@ During this project, things went as expected for the most part. When I was initi
 I would recommend this approach to others if they wish to investigate the files of a recovered drive or partition. OSForensics in particular was handy for me as I am comfortable with the program. Autopsy was good for extra sleuthing as well as marking items to generate a report for. 
 
 # Process
+To start this process, you'll need to create a case on OSForensics. Make sure to name the case and put your name on it, and change any settings as needed.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/osOne.PNG?raw=true)
+
+Once your case is
