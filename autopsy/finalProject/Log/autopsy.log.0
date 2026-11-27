@@ -78,3 +78,49 @@ INFO: Using default algorithm to create trust store: SunX509
 INFO: Using default algorithm to create trust store: PKIX
 2026-11-27 13:36:49.549 com.basistech.df.cybertriage.autopsy.incidentoptions.CTSettings getAppDataLocalDirectory
 INFO: Application Data Path: C:\Users\camer\AppData\Local\cybertriage
+2026-11-27 13:41:55.687 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: SuperiorIndustries_TimeSheet.xlsx
+2026-11-27 13:44:48.469 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: IMG_0038.JPG
+2026-11-27 13:44:53.624 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: IMG_0043.JPG
+2026-11-27 13:44:54.687 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: IMG_0008.JPG
+2026-11-27 13:44:55.99 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: IMG_0039.JPG
+2026-11-27 13:45:05.062 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: IMG_0039.JPG
+2026-11-27 13:45:07.433 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: Unalloc_205_2179989504_3253731328
+2026-11-27 13:45:08.036 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: Unalloc_205_4327473152_5401214976
+2026-11-27 13:45:11.952 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: f0012320.fat
+2026-11-27 13:45:16.359 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: DATA-DRIVE3 (Volume Label Entry)
+2026-11-27 13:45:22.379 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: cyclingartenergy-5.jpg
+2026-11-27 13:46:03.255 org.sleuthkit.autopsy.contentviewers.FileViewer isSupported
+INFO: Mimetype not known for file: cyclingartenergy-5.jpg:Zone.Identifier
+2026-11-27 13:47:03.128 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Stopping Solr 8 server
+2026-11-27 13:47:03.129 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Setting Solr 8 directory: C:\Program Files\Autopsy-4.23.1\autopsy\solr
+2026-11-27 13:47:03.129 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Running Solr 8 command: [C:\Program Files\Autopsy-4.23.1\autopsy\solr\bin\autopsy-solr.cmd, stop, -k, jjk#09s, -p, 23232] from C:\Program Files\Autopsy-4.23.1\autopsy\solr
+2026-11-27 13:47:03.137 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Finished running Solr 8 command
+2026-11-27 13:47:03.138 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Waiting for Solr server to stop
+2026-11-27 13:47:03.715 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Finished stopping Solr server
+2026-11-27 13:47:03.715 org.sleuthkit.autopsy.core.Installer <init>
+INFO: core installer created
+2026-11-27 13:47:03.756 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case finalProject (finalproject_20261126_133049) in C:\Users\camer\Documents\GitHub\dfProject\autopsy\finalProject
+2026-11-27 13:47:05.759 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case finalProject (finalproject_20261126_133049)
+2026-11-27 13:47:05.763 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2026-11-27 13:47:05.763 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case finalProject (finalproject_20261126_133049)
