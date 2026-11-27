@@ -27,12 +27,9 @@ To see the reports, please click on the following hyperlinks.
 
 Reports are hosted using GitHub pages and all files are safe to download. Some may be corrupted.
 
-# A Reflection
+# Reflection
+During this project, things went as expected for the most part. When I was initially figuring out what programs to use, I struggled to find one that would complement and work together with OSForensics effectively. Autopsy was what I settled on as it is quite similar but not limited in its report capabilities. I also had some trouble mounting the partition image for a bit, as I was trying to mount it like a physical disk. Once I realized that I was trying to run the process with a physical disk and not a virtual image, the problem was fixed. Another issue I found was that there were a handful of image files that were corrupted. Although I could not restore these images, I found the original source of these images according to the metadata of the original downloads. My final challenge during this project was the Zone Identifiers. I could not quite figure out what they were for without some extra research, but after I understood what they were for I was able to continue digging into the recovered partition.<br>
 
+I would recommend this approach to others if they wish to investigate the files of a recovered drive or partition. OSForensics in particular was handy for me as I am comfortable with the program. Autopsy was good for extra sleuthing as well as marking items to generate a report for. 
 
-Did things work as expected? 
-What challenges did you encounter? 
-Do you recommend this tool / approach? 
-Document the output of your simulation or process. 
-If scripts, redirect the console output into out.txt files
-Display screen shots to clearly present your project, process, results.
+# Process
