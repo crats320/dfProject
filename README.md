@@ -36,4 +36,22 @@ I would recommend this approach to others if they wish to investigate the files 
 To start this process, you'll need to create a case on OSForensics. Make sure to name the case and put your name on it, and change any settings as needed.<br>
 ![](https://github.com/crats320/dfProject/blob/main/processImages/osOne.PNG?raw=true)
 
-Once your case is
+Once your case is created, you'll need to mount your image of the partition. Go to manage case, add device, and select image in the options. Then navigate to your image and select it for mounting.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/osNine.PNG?raw=true)
+
+Now that your image has been mounted, you can begin to look through the tree in the File System Browser to find suspicious items.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/osTwo.PNG?raw=true)
+![](https://github.com/crats320/dfProject/blob/main/processImages/osThree.PNG?raw=true)
+
+Find a suspicious item. When found, checkmark the item and then right click it to begin adding it to marked items.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/osFour.PNG?raw=true)
+![](https://github.com/crats320/dfProject/blob/main/processImages/osFive.PNG?raw=true)
+
+When you click "Add to case", a menu will pop up instructing you to label the item and note it. Make sure to do both things before continuing.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/osSix.PNG?raw=true)
+
+Once you have either hit the limit of items you may add to your case or finished finding all of your case items, navigate back to the start menu. Click on generate report.<br>
+![](https://github.com/crats320/dfProject/blob/main/processImages/osSeven.PNG?raw=true)
+
+Go through the steps of the report as needed, you should not need to change anything. Once it has been generated all files should be saved locally on the computer.
+![](https://github.com/crats320/dfProject/blob/main/processImages/osEight.PNG?raw=true)
