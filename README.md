@@ -53,5 +53,5 @@ When you click "Add to case", a menu will pop up instructing you to label the it
 Once you have either hit the limit of items you may add to your case or finished finding all of your case items, navigate back to the start menu. Click on generate report.<br>
 ![](https://github.com/crats320/dfProject/blob/main/processImages/osSeven.PNG?raw=true)
 
-Go through the steps of the report as needed, you should not need to change anything. Once it has been generated all files should be saved locally on the computer.
+Go through the steps of the report as needed, you should not need to change anything. Once it has been generated all files should be saved locally on the computer.<br>
 ![](https://github.com/crats320/dfProject/blob/main/processImages/osEight.PNG?raw=true)
