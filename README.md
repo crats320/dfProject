@@ -55,3 +55,12 @@ Once you have either hit the limit of items you may add to your case or finished
 
 Go through the steps of the report as needed, you should not need to change anything. Once it has been generated all files should be saved locally on the computer.<br>
 ![](https://github.com/crats320/dfProject/blob/main/processImages/osEight.PNG?raw=true)
+
+___
+
+After generating a report on OSForensics, you can close it and open Autopsy. With Autopsy open, you can create a new case. Name it and find a good location for your project as needed, as well as number it.
+![](https://github.com/crats320/dfProject/blob/main/processImages/aOne.PNG?raw=true)
+![](https://github.com/crats320/dfProject/blob/main/processImages/aTwo.PNG?raw=true)
+
+Now that your case has been created, you can now mount the partition image as well. Go through the default process and ensure you have the VM Disk/Image option selected.
+![](https://github.com/crats320/dfProject/blob/main/processImages/aThree.PNG?raw=true)
